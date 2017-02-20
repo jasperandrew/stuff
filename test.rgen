@@ -53,7 +53,7 @@ mouse
 rat
 beaver
 
-$clothing
+$wearable
 [an] [color|material] [clothing]
 [color|material] [plural clothing]
 
@@ -146,4 +146,4 @@ scissors
 knives
 
 $output
-[An] [character] with [clothing] and [accessory].<br>
+[An] [character] with [wearable] and [accessory].<br>
