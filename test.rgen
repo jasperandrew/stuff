@@ -16,7 +16,7 @@ $creature
 
 $wearable
 [an] [[color]|[material]] [clothing]
-[[color]|[material] [plural-clothing]
+[[color]|[material]] [plural clothing]
 
 $color
 [red|gold|green|blue|white|black|orange|yellow|violet|purple|grey|brown|turquoise]
@@ -27,7 +27,7 @@ $material
 $clothing
 [top hat|bowler hat|baseball cap|toupee|pope hat|beanie|mask|shirt|tank top|jacket|trench coat|cloak|cape|tutu|scarf|helmet|helm]
 
-$plural-clothing
+$plural clothing
 [pants|jeans|shorts|overalls|tights|earmuffs|boots|shoes|sandals|glasses|sunglasses|gloves|mittens|goggles|armor|underwear]
 
 $accessory
