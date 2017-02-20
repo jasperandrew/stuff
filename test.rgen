@@ -1,0 +1,14 @@
+$name : Le Generatore
+$author : Quazillionaire
+$description : It generates
+$picture : https://www.expedia.com/pictures/assets/images/share/share-Embed-128px.png
+$amount : 7
+$button : Moar Plz
+
+$animal
+dog
+cat
+aardvark
+
+$output
+I am [an] [animal]!<br>
