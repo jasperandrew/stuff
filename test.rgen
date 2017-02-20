@@ -1,14 +1,149 @@
-$name : Le Generatore
+$name : Character Generator
 $author : Quazillionaire
-$description : It generates
-$picture : https://www.expedia.com/pictures/assets/images/share/share-Embed-128px.png
+$description : Generate characters to draw, write, put in a game, or whatever.
+$picture :
 $amount : 1
-$button : Moar Plz
+$button : [Moar Plz|Mas]
 
-$animal
+$character
+[descriptor] [creature]
+
+$descriptor
+insane
+rabid
+happy
+crazy
+buff
+tired
+lazy
+excited
+jumpy
+grumpy
+angry
+sad
+unhappy
+
+$creature
 dog
 cat
 aardvark
+sandwich
+dragon
+panda
+lemur
+buffalo
+lizard
+roc
+rock
+duck
+cheetah
+tiger
+lion
+bear
+janitor
+donkey
+ogre
+fly
+ant
+troll
+goblin
+eagle
+monkey
+mouse
+rat
+beaver
+
+$clothing
+[an] [color|material] [clothing]
+[color|material] [plural clothing]
+
+$color
+red
+gold
+green
+blue
+white
+black
+orange
+yellow
+violet
+purple
+grey
+brown
+turquoise
+
+$material
+denim
+metal
+silk
+silver
+bronze
+platinum
+leather
+fur
+iron
+steel
+cloth
+wood
+
+$clothing
+top hat
+bowler hat
+baseball cap
+toupee
+pope hat
+beanie
+mask
+shirt
+tank top
+jacket
+trench coat
+cloak
+cape
+tutu
+scarf
+helmet
+helm
+
+$plural clothing
+pants
+jeans
+shorts
+overalls
+tights
+earmuffs
+boots
+shoes
+sandals
+glasses
+sunglasses
+gloves
+mittens
+goggles
+armor
+underwear
+
+$accessory
+[an] [item]
+[plural item]
+
+$item
+umbrella
+camera
+bat
+sword
+spear
+knife
+hammer
+shield
+staff
+book
+orb
+stick
+
+$plural item
+scissors
+knives
 
 $output
-The main character should be [an] [descriptor] [creature] with [clothing] and [an] [item].<br>
+[An] [character] with [clothing] and [accessory].<br>
