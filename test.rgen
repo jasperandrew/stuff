@@ -3,7 +3,7 @@ $author : Quazillionaire
 $description : Generate characters to draw, write, put in a game, or whatever.
 $picture :
 $amount : 1
-$button : [Moar Plz|Mas]
+$button : New Character
 
 $character
 [descriptor] [creature]
