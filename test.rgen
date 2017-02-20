@@ -2,7 +2,7 @@ $name : Le Generatore
 $author : Quazillionaire
 $description : It generates
 $picture : https://www.expedia.com/pictures/assets/images/share/share-Embed-128px.png
-$amount : 7
+$amount : 1
 $button : Moar Plz
 
 $animal
@@ -11,4 +11,4 @@ cat
 aardvark
 
 $output
-I am [an] [animal]!<br>
+The main character should be [an] [descriptor] [creature] with [clothing] and [an] [item].<br>
