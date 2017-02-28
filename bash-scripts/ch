@@ -1,0 +1,4 @@
+#!/bin/bash
+# A command-shortener form chromium-browser
+
+chromium-browser $1 $2 $3

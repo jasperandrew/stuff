@@ -1,0 +1,11 @@
+#!/bin/bash
+# A script to modify screen brightness
+
+if [ $1 -ge 0 ] && [ $1 -le 100 ]
+then
+    num=$(($1*4882))
+    num=$(($num/100))
+    su -c "echo $num > /sys/class/backlight/intel_backlight/brightness"
+else
+    echo "Value must be between 0 and 100."
+fi

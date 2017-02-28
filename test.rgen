@@ -38,7 +38,7 @@ $item
 [umbrella|camera|bat|sword|spear|knife|hammer|shield|staff|book|orb|stick]
 
 $plural item
-[scissors|knives]
+[scissors|twin knives]
 
 $output
 [An] [character] with [wearable] and [accessory].<br>

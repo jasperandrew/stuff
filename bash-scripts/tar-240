@@ -1,0 +1,22 @@
+#!/bin/bash
+# A script for .tar-ing files for CS 240
+
+if [ $1 -lt 10 ] 
+then
+    num="0$1"
+else
+    num="$1"
+fi
+
+mkdir jandrew3
+cp -r jandrew3_h$num/* jandrew3
+
+if [[ $(tar -cvf jandrew3_h$num.tar jandrew3) ]] 
+then
+    echo "SUCCESS: File compression completed"
+else
+    echo "ERROR: File compression failed"
+    rm jandrew3_h$num.tar
+fi
+
+rm -r jandrew3
